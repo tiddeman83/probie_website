@@ -1,5 +1,6 @@
 
 import './App.css';
+import ResponsivePlayer from './components/SesponsivePlayer';
 import Sidebar from "./components/Sidebar.js";
 
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
 
       <Sidebar />
+      <ResponsivePlayer />
     </div>
   );
 }
